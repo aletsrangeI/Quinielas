@@ -1,0 +1,15 @@
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/bin/Debug/net7.0/Quinielas.Transversal.Logging.deps.json
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/bin/Debug/net7.0/Quinielas.Transversal.Logging.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/bin/Debug/net7.0/Quinielas.Transversal.Logging.pdb
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/bin/Debug/net7.0/Quinielas.Transversal.Common.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/bin/Debug/net7.0/Quinielas.Transversal.Common.pdb
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/Quinielas.Transversal.Logging.csproj.AssemblyReference.cache
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/Quinielas.Transversal.Logging.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/Quinielas.Transversal.Logging.AssemblyInfoInputs.cache
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/Quinielas.Transversal.Logging.AssemblyInfo.cs
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/Quinielas.Transversal.Logging.csproj.CoreCompileInputs.cache
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/Quinielas.Transversal.Logging.csproj.CopyComplete
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/Quinielas.Transversal.Logging.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/refint/Quinielas.Transversal.Logging.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/Quinielas.Transversal.Logging.pdb
+/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/Debug/net7.0/ref/Quinielas.Transversal.Logging.dll

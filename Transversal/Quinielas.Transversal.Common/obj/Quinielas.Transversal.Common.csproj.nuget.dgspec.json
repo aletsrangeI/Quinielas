@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj": {}
+  },
+  "projects": {
+    "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj",
+        "projectName": "Quinielas.Transversal.Common",
+        "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj",
+        "packagesPath": "/home/alexrangel/.nuget/packages/",
+        "outputPath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alexrangel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

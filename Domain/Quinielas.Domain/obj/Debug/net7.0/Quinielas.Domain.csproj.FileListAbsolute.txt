@@ -1,0 +1,12 @@
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/bin/Debug/net7.0/Quinielas.Domain.deps.json
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/bin/Debug/net7.0/Quinielas.Domain.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/bin/Debug/net7.0/Quinielas.Domain.pdb
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/Quinielas.Domain.csproj.AssemblyReference.cache
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/Quinielas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/Quinielas.Domain.AssemblyInfoInputs.cache
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/Quinielas.Domain.AssemblyInfo.cs
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/Quinielas.Domain.csproj.CoreCompileInputs.cache
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/Quinielas.Domain.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/refint/Quinielas.Domain.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/Quinielas.Domain.pdb
+/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/obj/Debug/net7.0/ref/Quinielas.Domain.dll
