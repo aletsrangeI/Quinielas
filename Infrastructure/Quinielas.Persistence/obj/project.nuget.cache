@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "z18gbCbX+GmQxjSxw1cwkGwb3JG0K53yQcF8EP5ASDKGn2N5i9m+ki3KmVl9oPTqG5hp7HkQbOJjtiJtinS2NA==",
+  "dgSpecHash": "qgD6AlaAgU29TDidVETTpubRqVErJ2vatC5K3H+TWBIHeSTYlfgB0x6z2TSNPG9svJ3DittFBIbkifI1QsCYSQ==",
   "success": true,
   "projectFilePath": "/home/alexrangel/Proyectos/Quiniela.Common/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj",
   "expectedPackageFiles": [
     "/home/alexrangel/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/dapper/2.1.15/dapper.2.1.15.nupkg.sha512",
+    "/home/alexrangel/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",

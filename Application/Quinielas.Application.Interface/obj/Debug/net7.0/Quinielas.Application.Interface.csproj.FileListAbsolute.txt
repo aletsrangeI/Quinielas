@@ -10,3 +10,10 @@
 /home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/obj/Debug/net7.0/refint/Quinielas.Application.Interface.dll
 /home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/obj/Debug/net7.0/Quinielas.Application.Interface.pdb
 /home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/obj/Debug/net7.0/ref/Quinielas.Application.Interface.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/bin/Debug/net7.0/Quinielas.Application.DTO.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/bin/Debug/net7.0/Quinielas.Domain.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/bin/Debug/net7.0/Quinielas.Transversal.Common.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/bin/Debug/net7.0/Quinielas.Application.DTO.pdb
+/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/bin/Debug/net7.0/Quinielas.Domain.pdb
+/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/bin/Debug/net7.0/Quinielas.Transversal.Common.pdb
+/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/obj/Debug/net7.0/Quinielas.Application.Interface.csproj.CopyComplete
