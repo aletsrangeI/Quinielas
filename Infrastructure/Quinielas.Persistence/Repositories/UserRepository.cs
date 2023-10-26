@@ -1,81 +1,78 @@
+using Empresa.Ecommerce.Persistence.Context;
 using Quinielas.Application.Interface.Persistence;
 using Quinielas.Domain.Entities;
 
 namespace Quinielas.Persistence.Repositories;
 public class UserRepository : IUserRepository
 {
+
+    protected readonly ApplicationDbContext _dbContext;
+
+    public UserRepository(ApplicationDbContext dbContext)
+    {
+        _dbContext = dbContext;
+    }
+
+    #region  Metodos sincronos
     public User Authenticate(string username, string password)
     {
-        throw new NotImplementedException();
+        User user = _dbContext.Users.SingleOrDefault(x => x.UserName == username && x.Password == password);
+
+        if (user == null) return null;
+
+        return user;
     }
 
-    public int Count()
+    public User Get(int id)
     {
-        throw new NotImplementedException();
-    }
+        User user = _dbContext.Users.SingleOrDefault(x => x.UserId == id);
 
-    public Task<int> CountAsync()
-    {
-        throw new NotImplementedException();
-    }
+        if (user == null) return null;
 
-    public bool Delete(string id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<bool> DeleteAsync(string id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public User Get(string id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public IEnumerable<User> GetAll()
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<IEnumerable<User>> GetAllAsync()
-    {
-        throw new NotImplementedException();
-    }
-
-    public IEnumerable<User> GetAllWithPagination(int page, int pageSize)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<IEnumerable<User>> GetAllWithPaginationAsync(int page, int pageSize)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<User> GetAsync(string id)
-    {
-        throw new NotImplementedException();
+        return user;
     }
 
     public bool Insert(User entity)
     {
-        throw new NotImplementedException();
-    }
+        _dbContext.Users.Add(entity);
 
-    public Task<bool> InsertAsync(User entity)
-    {
-        throw new NotImplementedException();
+        return _dbContext.SaveChanges() > 0;
     }
 
     public bool Update(User entity)
     {
-        throw new NotImplementedException();
+        _dbContext.Users.Update(entity);
+
+        return _dbContext.SaveChanges() > 0;
     }
 
-    public Task<bool> UpdateAsync(User entity)
+    public IEnumerable<User> GetAll()
     {
-        throw new NotImplementedException();
+        IEnumerable<User> users = _dbContext.Users.ToList();
+
+        return users;
     }
+
+    public bool Delete(int id)
+    {
+        User user = _dbContext.Users.SingleOrDefault(x => x.UserId == id);
+
+        if (user == null) return false;
+
+        _dbContext.Users.Remove(user);
+
+        return _dbContext.SaveChanges() > 0;
+    }
+    public IEnumerable<User> GetAllWithPagination(int page, int pageSize)
+    {
+        IEnumerable<User> users = _dbContext.Users.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+        return users;
+    }
+    public int Count()
+    {
+        return _dbContext.Users.Count();
+    }
+    
+    #endregion
 }

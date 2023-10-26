@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quinielas.Application.UseCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quinielas.Persistence", "Infrastructure\Quinielas.Persistence\Quinielas.Persistence.csproj", "{D599F7C3-86B3-4150-87C8-78F0A9B3F692}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiniela.Service.WebApi", "Service\Quiniela.Service.WebApi\Quiniela.Service.WebApi.csproj", "{F8C7D0EA-E18F-4B7A-B334-C90545E8EA3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{D599F7C3-86B3-4150-87C8-78F0A9B3F692}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D599F7C3-86B3-4150-87C8-78F0A9B3F692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D599F7C3-86B3-4150-87C8-78F0A9B3F692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C7D0EA-E18F-4B7A-B334-C90545E8EA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C7D0EA-E18F-4B7A-B334-C90545E8EA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C7D0EA-E18F-4B7A-B334-C90545E8EA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C7D0EA-E18F-4B7A-B334-C90545E8EA3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +88,6 @@ Global
 		{0590A0F6-4278-4ACD-AC10-CBE765C1772C} = {DFF6CB62-4F8D-4306-A008-BA881F142633}
 		{C50B9B38-9553-4004-BE11-F71EE4C7B021} = {DFF6CB62-4F8D-4306-A008-BA881F142633}
 		{D599F7C3-86B3-4150-87C8-78F0A9B3F692} = {10E09A9D-46A4-4819-9C92-57CF6E5036DD}
+		{F8C7D0EA-E18F-4B7A-B334-C90545E8EA3D} = {B170B9B4-FF67-46BE-BD65-CDEB6C256DA8}
 	EndGlobalSection
 EndGlobal
