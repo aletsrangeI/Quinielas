@@ -29,14 +29,4 @@
     <ProjectReference Include="..\..\Transversal\Quinielas.Transversal.Common\Quinielas.Transversal.Common.csproj" />
     <ProjectReference Include="..\..\Transversal\Quinielas.Transversal.Logging\Quinielas.Transversal.Logging.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Modules/" />
-    <Folder Include="Modules/Authentication/" />
-    <Folder Include="Modules/Feature/" />
-    <Folder Include="Modules/HealthCheck/" />
-    <Folder Include="Modules/Injection/" />
-    <Folder Include="Modules/RateLimiter/" />
-    <Folder Include="Modules/Swagger/" />
-    <Folder Include="Modules/Watch/" />
-  </ItemGroup>
 </Project>
