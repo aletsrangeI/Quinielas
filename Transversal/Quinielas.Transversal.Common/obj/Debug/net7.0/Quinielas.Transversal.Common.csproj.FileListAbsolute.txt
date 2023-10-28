@@ -10,3 +10,15 @@
 /home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/refint/Quinielas.Transversal.Common.dll
 /home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/Quinielas.Transversal.Common.pdb
 /home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/ref/Quinielas.Transversal.Common.dll
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/bin/Debug/net7.0/Quinielas.Transversal.Common.deps.json
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/bin/Debug/net7.0/Quinielas.Transversal.Common.dll
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/bin/Debug/net7.0/Quinielas.Transversal.Common.pdb
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/Quinielas.Transversal.Common.csproj.AssemblyReference.cache
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/Quinielas.Transversal.Common.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/Quinielas.Transversal.Common.AssemblyInfoInputs.cache
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/Quinielas.Transversal.Common.AssemblyInfo.cs
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/Quinielas.Transversal.Common.csproj.CoreCompileInputs.cache
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/Quinielas.Transversal.Common.dll
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/refint/Quinielas.Transversal.Common.dll
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/Quinielas.Transversal.Common.pdb
+/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/obj/Debug/net7.0/ref/Quinielas.Transversal.Common.dll

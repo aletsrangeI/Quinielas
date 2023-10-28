@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kzNIgDUAg/CymcgM6qoYVQyRi0ETSnUEfdMonyuZsIU=",
+  "Source": "Quiniela.Service.WebApi",
+  "BasePath": "_content/Quiniela.Service.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

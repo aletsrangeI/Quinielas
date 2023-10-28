@@ -1,0 +1,15 @@
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/bin/Debug/net7.0/Quinielas.Application.Validator.deps.json
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/bin/Debug/net7.0/Quinielas.Application.Validator.dll
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/bin/Debug/net7.0/Quinielas.Application.Validator.pdb
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/bin/Debug/net7.0/Quinielas.Application.DTO.dll
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/bin/Debug/net7.0/Quinielas.Application.DTO.pdb
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/Quinielas.Application.Validator.csproj.AssemblyReference.cache
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/Quinielas.Application.Validator.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/Quinielas.Application.Validator.AssemblyInfoInputs.cache
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/Quinielas.Application.Validator.AssemblyInfo.cs
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/Quinielas.Application.Validator.csproj.CoreCompileInputs.cache
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/Quinielas.Application.Validator.csproj.CopyComplete
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/Quinielas.Application.Validator.dll
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/refint/Quinielas.Application.Validator.dll
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/Quinielas.Application.Validator.pdb
+/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/Debug/net7.0/ref/Quinielas.Application.Validator.dll
