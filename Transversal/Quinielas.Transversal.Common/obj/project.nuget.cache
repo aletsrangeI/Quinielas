@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NySE/drXg2ivK8yQsr98jbLMKk6Hrr/yX9uhaDOV/FgGPsDfro+5amrPeeV7fNyoI+5FdtvtrlIUfvsc19CBSg==",
+  "dgSpecHash": "xkoDJtYK8aSaX4GIlPvWRESubF1yNIvWKLC+84/M+YDG5aB+cDnuCvP0WSeQgcGk9H6UOP025K9qhwES99mTew==",
   "success": true,
-  "projectFilePath": "/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj",
+  "projectFilePath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj",
   "expectedPackageFiles": [
-    "/root/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512"
+    "/home/alexrangel/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512"
   ],
   "logs": []
 }

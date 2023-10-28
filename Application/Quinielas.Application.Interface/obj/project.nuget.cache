@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wUD1/OIaquRrzomDeyKk6sMs7eDGZZcU8dPotVPIjNyDctfMrCDY1pBH1YhMNwErp361Ke/KwIPULm3lNjhe7g==",
+  "dgSpecHash": "fsSLSA/H+AWeB9b+LcSXwVa8JUyAcWO0mcd/3BOtpKNWjH8KHqnyDVjHDxbB10KNXN4yWKll0Fh3LDNiPxycyg==",
   "success": true,
-  "projectFilePath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj",
+  "projectFilePath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj",
   "expectedPackageFiles": [
-    "/root/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512"
+    "/home/alexrangel/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512"
   ],
   "logs": []
 }

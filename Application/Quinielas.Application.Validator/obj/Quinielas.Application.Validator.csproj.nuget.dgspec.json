@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj": {}
+    "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj": {}
   },
   "projects": {
-    "/workspaces/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj": {
+    "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj",
+        "projectUniqueName": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj",
         "projectName": "Quinielas.Application.DTO",
-        "projectPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.DTO/obj/",
+        "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj",
+        "packagesPath": "/home/alexrangel/.nuget/packages/",
+        "outputPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/alexrangel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,21 +53,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj": {
+    "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj",
+        "projectUniqueName": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj",
         "projectName": "Quinielas.Application.Validator",
-        "projectPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/obj/",
+        "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj",
+        "packagesPath": "/home/alexrangel/.nuget/packages/",
+        "outputPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/alexrangel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/workspaces/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj": {
-                "projectPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj"
+              "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj": {
+                "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj"
               }
             }
           }
@@ -120,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
         }
       }
     }

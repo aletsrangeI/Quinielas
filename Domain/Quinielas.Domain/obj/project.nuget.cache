@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ay26nraakTXrn0ehn9jHnGYMiMAZEp+Cq2aXsIl5uNZeOJ+4+Nyn5i8k1qHEEmFzqlNzuqrTSo5wJHab8zF8XQ==",
+  "dgSpecHash": "KqWY7X0zLluuPI/rJympEwFeII8JmF2DpthPo7zlg+6e2w0IOe8DfltrcYqYraQVIKBW5ilvSzieOO5H4UPjMg==",
   "success": true,
-  "projectFilePath": "/workspaces/Quiniela.Common/Domain/Quinielas.Domain/Quinielas.Domain.csproj",
+  "projectFilePath": "/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/Quinielas.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -12655,19 +12655,19 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/alexrangel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Quiniela.Common/Service/Quiniela.Service.WebApi/Quiniela.Service.WebApi.csproj",
+      "projectUniqueName": "/home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/Quiniela.Service.WebApi.csproj",
       "projectName": "Quiniela.Service.WebApi",
-      "projectPath": "/workspaces/Quiniela.Common/Service/Quiniela.Service.WebApi/Quiniela.Service.WebApi.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/workspaces/Quiniela.Common/Service/Quiniela.Service.WebApi/obj/",
+      "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/Quiniela.Service.WebApi.csproj",
+      "packagesPath": "/home/alexrangel/.nuget/packages/",
+      "outputPath": "/home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/alexrangel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -12679,29 +12679,29 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/workspaces/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj": {
-              "projectPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj"
             },
-            "/workspaces/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj": {
-              "projectPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj"
             },
-            "/workspaces/Quiniela.Common/Application/Quinielas.Application.UseCases/Quinielas.Application.UseCases.csproj": {
-              "projectPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.UseCases/Quinielas.Application.UseCases.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.UseCases/Quinielas.Application.UseCases.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.UseCases/Quinielas.Application.UseCases.csproj"
             },
-            "/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj": {
-              "projectPath": "/workspaces/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj"
             },
-            "/workspaces/Quiniela.Common/Domain/Quinielas.Domain/Quinielas.Domain.csproj": {
-              "projectPath": "/workspaces/Quiniela.Common/Domain/Quinielas.Domain/Quinielas.Domain.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/Quinielas.Domain.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/Quinielas.Domain.csproj"
             },
-            "/workspaces/Quiniela.Common/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj": {
-              "projectPath": "/workspaces/Quiniela.Common/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj"
             },
-            "/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj": {
-              "projectPath": "/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj"
             },
-            "/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/Quinielas.Transversal.Logging.csproj": {
-              "projectPath": "/workspaces/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/Quinielas.Transversal.Logging.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/Quinielas.Transversal.Logging.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/Quinielas.Transversal.Logging.csproj"
             }
           }
         }
@@ -12788,7 +12788,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
       }
     }
   }
