@@ -476,19 +476,19 @@
     ]
   },
   "packageFolders": {
-    "/home/alexrangel/.nuget/packages/": {}
+    "/home/vscode/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.UseCases/Quinielas.Application.UseCases.csproj",
+      "projectUniqueName": "/workspaces/Quinielas/Application/Quinielas.Application.UseCases/Quinielas.Application.UseCases.csproj",
       "projectName": "Quinielas.Application.UseCases",
-      "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.UseCases/Quinielas.Application.UseCases.csproj",
-      "packagesPath": "/home/alexrangel/.nuget/packages/",
-      "outputPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.UseCases/obj/",
+      "projectPath": "/workspaces/Quinielas/Application/Quinielas.Application.UseCases/Quinielas.Application.UseCases.csproj",
+      "packagesPath": "/home/vscode/.nuget/packages/",
+      "outputPath": "/workspaces/Quinielas/Application/Quinielas.Application.UseCases/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alexrangel/.nuget/NuGet/NuGet.Config"
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -500,20 +500,20 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj": {
-              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj"
+            "/workspaces/Quinielas/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj": {
+              "projectPath": "/workspaces/Quinielas/Application/Quinielas.Application.DTO/Quinielas.Application.DTO.csproj"
             },
-            "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj": {
-              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj"
+            "/workspaces/Quinielas/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj": {
+              "projectPath": "/workspaces/Quinielas/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj"
             },
-            "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj": {
-              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj"
+            "/workspaces/Quinielas/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj": {
+              "projectPath": "/workspaces/Quinielas/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj"
             },
-            "/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/Quinielas.Domain.csproj": {
-              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Domain/Quinielas.Domain/Quinielas.Domain.csproj"
+            "/workspaces/Quinielas/Domain/Quinielas.Domain/Quinielas.Domain.csproj": {
+              "projectPath": "/workspaces/Quinielas/Domain/Quinielas.Domain/Quinielas.Domain.csproj"
             },
-            "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj": {
-              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj"
+            "/workspaces/Quinielas/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj": {
+              "projectPath": "/workspaces/Quinielas/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj"
             }
           }
         }
@@ -553,7 +553,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "u+ys9SND06KFmuWkasnJM0dKIDvemUshS+bzWCrwRA52mWOGYYr3eB6Z+jOMzYZMIYdvGLQkS4U7FnSTlr+ChA==",
+  "dgSpecHash": "NG/bFFduDDwqBQ/ZHeJAWGo0t12942aoMk03I1SbMlrnsFwnVCVMAAclrCLU9iutMgKcebAkHUoJFbTrUdk2+Q==",
   "success": true,
-  "projectFilePath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj",
+  "projectFilePath": "/workspaces/Quinielas/Application/Quinielas.Application.Validator/Quinielas.Application.Validator.csproj",
   "expectedPackageFiles": [
-    "/home/alexrangel/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
-    "/home/alexrangel/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.7.1/fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
-    "/home/alexrangel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "/home/vscode/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
+    "/home/vscode/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.7.1/fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
+    "/home/vscode/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

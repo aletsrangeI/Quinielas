@@ -9804,19 +9804,19 @@
     ]
   },
   "packageFolders": {
-    "/home/alexrangel/.nuget/packages/": {}
+    "/home/vscode/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/Quinielas.Transversal.Logging.csproj",
+      "projectUniqueName": "/workspaces/Quinielas/Transversal/Quinielas.Transversal.Logging/Quinielas.Transversal.Logging.csproj",
       "projectName": "Quinielas.Transversal.Logging",
-      "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/Quinielas.Transversal.Logging.csproj",
-      "packagesPath": "/home/alexrangel/.nuget/packages/",
-      "outputPath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Logging/obj/",
+      "projectPath": "/workspaces/Quinielas/Transversal/Quinielas.Transversal.Logging/Quinielas.Transversal.Logging.csproj",
+      "packagesPath": "/home/vscode/.nuget/packages/",
+      "outputPath": "/workspaces/Quinielas/Transversal/Quinielas.Transversal.Logging/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alexrangel/.nuget/NuGet/NuGet.Config"
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -9828,8 +9828,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj": {
-              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj"
+            "/workspaces/Quinielas/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj": {
+              "projectPath": "/workspaces/Quinielas/Transversal/Quinielas.Transversal.Common/Quinielas.Transversal.Common.csproj"
             }
           }
         }
@@ -9869,7 +9869,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,28 +5,38 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11"/>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
-    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="7.0.0"/>
-    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="7.0.2"/>
-    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="7.1.0"/>
-    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="7.0.0"/>
-    <PackageReference Include="AutoMapper" Version="12.0.1"/>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1"/>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.13"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0"/>
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3"/>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="7.0.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="7.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="7.1.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="7.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Application\Quinielas.Application.Interface\Quinielas.Application.Interface.csproj"/>
-    <ProjectReference Include="..\..\Application\Quinielas.Application.DTO\Quinielas.Application.DTO.csproj"/>
-    <ProjectReference Include="..\..\Application\Quinielas.Application.UseCases\Quinielas.Application.UseCases.csproj"/>
-    <ProjectReference Include="..\..\Application\Quinielas.Application.Validator\Quinielas.Application.Validator.csproj"/>
-    <ProjectReference Include="..\..\Domain\Quinielas.Domain\Quinielas.Domain.csproj"/>
-    <ProjectReference Include="..\..\Infrastructure\Quinielas.Persistence\Quinielas.Persistence.csproj"/>
-    <ProjectReference Include="..\..\Transversal\Quinielas.Transversal.Common\Quinielas.Transversal.Common.csproj"/>
-    <ProjectReference Include="..\..\Transversal\Quinielas.Transversal.Logging\Quinielas.Transversal.Logging.csproj"/>
+    <ProjectReference Include="..\..\Application\Quinielas.Application.Interface\Quinielas.Application.Interface.csproj" />
+    <ProjectReference Include="..\..\Application\Quinielas.Application.DTO\Quinielas.Application.DTO.csproj" />
+    <ProjectReference Include="..\..\Application\Quinielas.Application.UseCases\Quinielas.Application.UseCases.csproj" />
+    <ProjectReference Include="..\..\Application\Quinielas.Application.Validator\Quinielas.Application.Validator.csproj" />
+    <ProjectReference Include="..\..\Domain\Quinielas.Domain\Quinielas.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Quinielas.Persistence\Quinielas.Persistence.csproj" />
+    <ProjectReference Include="..\..\Transversal\Quinielas.Transversal.Common\Quinielas.Transversal.Common.csproj" />
+    <ProjectReference Include="..\..\Transversal\Quinielas.Transversal.Logging\Quinielas.Transversal.Logging.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules/" />
+    <Folder Include="Modules/Authentication/" />
+    <Folder Include="Modules/Feature/" />
+    <Folder Include="Modules/HealthCheck/" />
+    <Folder Include="Modules/Injection/" />
+    <Folder Include="Modules/RateLimiter/" />
+    <Folder Include="Modules/Swagger/" />
+    <Folder Include="Modules/Watch/" />
   </ItemGroup>
 </Project>
