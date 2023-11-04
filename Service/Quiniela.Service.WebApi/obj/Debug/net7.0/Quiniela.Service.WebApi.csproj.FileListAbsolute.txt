@@ -308,3 +308,5 @@
 /home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/obj/Debug/net7.0/Quiniela.Service.WebApi.pdb
 /home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/obj/Debug/net7.0/Quiniela.Service.WebApi.genruntimeconfig.cache
 /home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/obj/Debug/net7.0/ref/Quiniela.Service.WebApi.dll
+/home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/bin/Debug/net7.0/Quiniela.Service.WebApi.xml
+/home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/obj/Debug/net7.0/Quiniela.Service.WebApi.xml
