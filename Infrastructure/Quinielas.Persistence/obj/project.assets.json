@@ -3095,19 +3095,19 @@
     ]
   },
   "packageFolders": {
-    "/home/vscode/.nuget/packages/": {}
+    "/home/alexrangel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Quinielas/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj",
+      "projectUniqueName": "/home/alexrangel/Proyectos/Quiniela.Common/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj",
       "projectName": "Quinielas.Persistence",
-      "projectPath": "/workspaces/Quinielas/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj",
-      "packagesPath": "/home/vscode/.nuget/packages/",
-      "outputPath": "/workspaces/Quinielas/Infrastructure/Quinielas.Persistence/obj/",
+      "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Infrastructure/Quinielas.Persistence/Quinielas.Persistence.csproj",
+      "packagesPath": "/home/alexrangel/.nuget/packages/",
+      "outputPath": "/home/alexrangel/Proyectos/Quiniela.Common/Infrastructure/Quinielas.Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/vscode/.nuget/NuGet/NuGet.Config"
+        "/home/alexrangel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -3119,8 +3119,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/workspaces/Quinielas/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj": {
-              "projectPath": "/workspaces/Quinielas/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj"
+            "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj": {
+              "projectPath": "/home/alexrangel/Proyectos/Quiniela.Common/Application/Quinielas.Application.Interface/Quinielas.Application.Interface.csproj"
             }
           }
         }
@@ -3184,7 +3184,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
       }
     }
   }
