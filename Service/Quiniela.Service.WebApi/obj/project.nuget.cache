@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j9ZilWo8QbyqCbAfWRS0qd97nBEeKlQCyvDxQgv/Nt5AJcjeS5jIu+yK3I6b29BHKuFaEq/+P462Vu3WWgo6Kw==",
+  "dgSpecHash": "RWVSQOi1SbNWad4TtA/3pvI+pqLBw66C0fZ+5C076WjvIeNZEslLw8gFvi2PHcMzrdZWmTBrU7dg8ApBzbp3Ew==",
   "success": true,
   "projectFilePath": "/home/alexrangel/Proyectos/Quiniela.Common/Service/Quiniela.Service.WebApi/Quiniela.Service.WebApi.csproj",
   "expectedPackageFiles": [
@@ -97,7 +97,7 @@
     "/home/alexrangel/.nuget/packages/microsoft.entityframeworkcore.design/7.0.13/microsoft.entityframeworkcore.design.7.0.13.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.9/microsoft.entityframeworkcore.inmemory.7.0.9.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.13/microsoft.entityframeworkcore.relational.7.0.13.nupkg.sha512",
-    "/home/alexrangel/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.13/microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512",
+    "/home/alexrangel/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.12/microsoft.entityframeworkcore.sqlserver.7.0.12.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/home/alexrangel/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
