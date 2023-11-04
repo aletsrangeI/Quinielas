@@ -55,6 +55,33 @@ namespace Quinielas.Application.UseCases.Users{
             }
             return response;
         }
+
+        public Response<UserDTO> Agregar(UserDTO userDTO)
+        {
+            var response = new Response<UserDTO>();
+            var validation = _usersDtoValidator.Validate(userDTO);
+
+            if (!validation.IsValid)
+            {
+                response.Message = "Errores de validacion";
+                response.Errors = validation.Errors;
+                return response;
+            }
+
+            try
+            {
+                var user = _mapper.Map<Domain.Entities.User>(userDTO);
+                _unitOfWork.Users.Insert(user);
+                response.Data = _mapper.Map<UserDTO>(user);
+                response.isSuccess = true;
+                response.Message = "Usuario creado exitosamente";
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+            }
+            return response;
+        }
     }
 
 }

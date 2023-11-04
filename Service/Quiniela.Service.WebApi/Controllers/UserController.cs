@@ -27,10 +27,24 @@ public class UsersController : Controller
         _appSettings = appSettings.Value;
     }
 
+    [AllowAnonymous]
     [HttpPost, ActionName("Authenticate")]
     public IActionResult Authenticate([FromBody] UserDTO usersDto)
     {
         var response = _usersApplication.Authenticate(usersDto.UserName, usersDto.Password);
+
+        if (!response.isSuccess) return BadRequest(response);
+
+        if (response.Data == null) return NotFound(response.Message);
+
+        response.Data.Token = BuildToken(response);
+        return Ok(response);
+    }
+
+    [HttpPost, ActionName("Agregar")]
+    public IActionResult Agregar([FromBody] UserDTO usersDto)
+    {
+        var response = _usersApplication.Agregar(usersDto);
 
         if (!response.isSuccess) return BadRequest(response);
 
