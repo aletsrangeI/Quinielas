@@ -46,7 +46,7 @@ namespace Quinielas.Application.UseCases.Users{
             }
             catch (InvalidOperationException) // Esto es propio de dapper sucede cuando no se puede mapear el resultado de la consulta a un objeto
             {
-                response.isSuccess = true;
+                response.isSuccess = false;
                 response.Message = "El usuario no existe";
             }
             catch (Exception ex)
