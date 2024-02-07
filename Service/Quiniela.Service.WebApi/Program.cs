@@ -41,7 +41,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseWatchDogExceptionLogger();
 app.UseHttpsRedirection();
-app.UseCors("policyApiEcommerce");
+app.UseCors("policyQuinielas");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseRateLimiter();

@@ -9,9 +9,10 @@ public static class FeatureExtensions
     {
         string myPolicy = "policyQuinielas";
 
-        services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins(configuration["Config:OriginCors"])
-                                                                                    .AllowAnyHeader()
-                                                                                    .AllowAnyMethod()));
+         services.AddCors(options => options.AddPolicy(myPolicy, builder => builder
+            .SetIsOriginAllowed(_ => true) // Permitir cualquier origen
+            .AllowAnyHeader()
+            .AllowAnyMethod()));
         services.AddMvc();
         services.AddControllers().AddJsonOptions(options =>
         {

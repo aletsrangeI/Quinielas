@@ -40,9 +40,9 @@ public class UsersController : Controller
         response.Data.Token = BuildToken(response);
         return Ok(response);
     }
-
-    [HttpPost, ActionName("Agregar")]
-    public IActionResult Agregar([FromBody] UserDTO usersDto)
+    [AllowAnonymous]
+    [HttpPost, ActionName("Register")]
+    public IActionResult Register([FromBody] UserDTO usersDto)
     {
         var response = _usersApplication.Agregar(usersDto);
 
@@ -65,7 +65,7 @@ public class UsersController : Controller
                     new Claim(ClaimTypes.Name, usersDTO.Data.UserId.ToString()),
             }),
 
-            Expires = DateTime.UtcNow.AddMinutes(1),
+            Expires = DateTime.UtcNow.AddMinutes(15),
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
             Issuer = _appSettings.Issuer,
             Audience = _appSettings.Audience
