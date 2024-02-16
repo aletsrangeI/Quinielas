@@ -9,6 +9,7 @@ namespace Quinielas.Application.UseCases.Common.Mapping
         public MappingsProfile()
         {
             CreateMap<User, UserDTO>().ReverseMap();
+            CreateMap<IndiceCatalogo, IndiceCatalogoDTO>().ReverseMap();
         }
     }
 }

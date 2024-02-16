@@ -1,4 +1,4 @@
-﻿using Empresa.Ecommerce.Persistence.Context;
+﻿using Quinielas.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +24,7 @@ public static class ConfigureServices
         );
 
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IIndiceCatalogoRepository, IndiceCatalogoRepository>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         return services;
     }

@@ -5,8 +5,9 @@ using Quinielas.Application.Interface.UseCases;
 using Quinielas.Application.Validator;
 using Quinielas.Transversal.Common;
 
-namespace Quinielas.Application.UseCases.Users{
-        public class UsersApplication : IUsersApplication
+namespace Quinielas.Application.UseCases.Users
+{
+    public class UsersApplication : IUsersApplication
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
@@ -83,5 +84,4 @@ namespace Quinielas.Application.UseCases.Users{
             return response;
         }
     }
-
 }
