@@ -1,8 +1,6 @@
-using Quinielas.Domain.Common;
-
-namespace Quinielas.Domain.Entities
+namespace Quinielas.Application.DTO
 {
-    public class ContenidoCatalogo : BaseAuditableEntity
+    public class ContenidoCatalogoDTO
     {
         public string Descripcion { get; set; }
         public int IdCatalogo { get; set; }

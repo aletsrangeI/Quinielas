@@ -10,6 +10,7 @@ namespace Quinielas.Application.UseCases.Common.Mapping
         {
             CreateMap<User, UserDTO>().ReverseMap();
             CreateMap<IndiceCatalogo, IndiceCatalogoDTO>().ReverseMap();
+            CreateMap<ContenidoCatalogo, ContenidoCatalogoDTO>().ReverseMap();
         }
     }
 }

@@ -5,29 +5,30 @@ using Quinielas.Application.Interface.UseCases;
 using Quinielas.Application.Validator;
 using Quinielas.Transversal.Common;
 
-namespace Quinielas.Application.UseCases.IndiceCatalogos
+namespace Quinielas.Application.UseCases.ContenidoCatalogos
 {
-    public class IndiceCatalogosApplication : IIndiceCatalogoApplication
+    public class ContenidoCatalogoApplication : IContenidoCatalogoApplication
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly IndiceCatalogoDTOValidator _indiceCatalogoDtoValidator;
+        private readonly ContenidoCatalogoDTOValidator _contenidoCatalogoDtoValidator;
 
-        public IndiceCatalogosApplication(
+        public ContenidoCatalogoApplication(
             IUnitOfWork unitOfWork,
             IMapper mapper,
-            IndiceCatalogoDTOValidator indiceCatalogoDtoValidator
+            ContenidoCatalogoDTOValidator contenidoCatalogoDtoValidator
         )
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _indiceCatalogoDtoValidator = indiceCatalogoDtoValidator;
+            _contenidoCatalogoDtoValidator = contenidoCatalogoDtoValidator;
         }
 
-        public Response<bool> Insert(IndiceCatalogoDTO indiceCatalogoDTO)
+
+        public Response<bool> Insert(ContenidoCatalogoDTO contenidoCatalogoDTO)
         {
             var response = new Response<bool>();
-            var validation = _indiceCatalogoDtoValidator.Validate(indiceCatalogoDTO);
+            var validation = _contenidoCatalogoDtoValidator.Validate(contenidoCatalogoDTO);
 
             if (!validation.IsValid)
             {
@@ -38,8 +39,8 @@ namespace Quinielas.Application.UseCases.IndiceCatalogos
 
             try
             {
-                var indiceCatalogo = _mapper.Map<Domain.Entities.IndiceCatalogo>(indiceCatalogoDTO);
-                var transaccion = _unitOfWork.IndiceCatalogos.Insert(indiceCatalogo);
+                var ContenidoCatalogo = _mapper.Map<Domain.Entities.ContenidoCatalogo>(contenidoCatalogoDTO);
+                var transaccion = _unitOfWork.ContenidoCatalogos.Insert(ContenidoCatalogo);
 
                 if (transaccion)
                 {
@@ -55,14 +56,14 @@ namespace Quinielas.Application.UseCases.IndiceCatalogos
             return response;
         }
 
-        public Response<IndiceCatalogoDTO> Get(int id)
+        public Response<ContenidoCatalogoDTO> Get(int id)
         {
-            var response = new Response<IndiceCatalogoDTO>();
+            var response = new Response<ContenidoCatalogoDTO>();
 
             try
             {
-                var indiceCatalogo = _unitOfWork.IndiceCatalogos.Get(id);
-                response.Data = _mapper.Map<IndiceCatalogoDTO>(indiceCatalogo);
+                var ContenidoCatalogo = _unitOfWork.ContenidoCatalogos.Get(id);
+                response.Data = _mapper.Map<ContenidoCatalogoDTO>(ContenidoCatalogo);
 
                 if (response.Data != null)
                 {
@@ -78,14 +79,14 @@ namespace Quinielas.Application.UseCases.IndiceCatalogos
             return response;
         }
 
-        public Response<IEnumerable<IndiceCatalogoDTO>> GetAll()
+        public Response<IEnumerable<ContenidoCatalogoDTO>> GetAll()
         {
-            var response = new Response<IEnumerable<IndiceCatalogoDTO>>();
+            var response = new Response<IEnumerable<ContenidoCatalogoDTO>>();
 
             try
             {
-                var indiceCatalogos = _unitOfWork.IndiceCatalogos.GetAll();
-                response.Data = _mapper.Map<IEnumerable<IndiceCatalogoDTO>>(indiceCatalogos);
+                var ContenidoCatalogos = _unitOfWork.ContenidoCatalogos.GetAll();
+                response.Data = _mapper.Map<IEnumerable<ContenidoCatalogoDTO>>(ContenidoCatalogos);
 
                 if (response.Data != null)
                 {
@@ -107,7 +108,7 @@ namespace Quinielas.Application.UseCases.IndiceCatalogos
 
             try
             {
-                var transaccion = _unitOfWork.IndiceCatalogos.Delete(id);
+                var transaccion = _unitOfWork.ContenidoCatalogos.Delete(id);
 
 
                 if (transaccion)
@@ -125,10 +126,10 @@ namespace Quinielas.Application.UseCases.IndiceCatalogos
             return response;
         }
 
-        public Response<bool> Update(IndiceCatalogoDTO indiceCatalogoDTO)
+        public Response<bool> Update(ContenidoCatalogoDTO contenidoCatalogoDTO)
         {
             var response = new Response<bool>();
-            var validation = _indiceCatalogoDtoValidator.Validate(indiceCatalogoDTO);
+            var validation = _contenidoCatalogoDtoValidator.Validate(contenidoCatalogoDTO);
 
             if (!validation.IsValid)
             {
@@ -139,8 +140,8 @@ namespace Quinielas.Application.UseCases.IndiceCatalogos
 
             try
             {
-                var indiceCatalogo = _mapper.Map<Domain.Entities.IndiceCatalogo>(indiceCatalogoDTO);
-                var transaccion = _unitOfWork.IndiceCatalogos.Update(indiceCatalogo);
+                var contenidoCatalogo = _mapper.Map<Domain.Entities.ContenidoCatalogo>(contenidoCatalogoDTO);
+                var transaccion = _unitOfWork.ContenidoCatalogos.Update(contenidoCatalogo);
 
                 if (transaccion)
                 {
@@ -156,14 +157,14 @@ namespace Quinielas.Application.UseCases.IndiceCatalogos
             return response;
         }
 
-        public Response<IEnumerable<IndiceCatalogoDTO>> GetAllWithPagination(int page, int pageSize)
+        public Response<IEnumerable<ContenidoCatalogoDTO>> GetAllWithPagination(int page, int pageSize)
         {
-            var response = new Response<IEnumerable<IndiceCatalogoDTO>>();
+            var response = new Response<IEnumerable<ContenidoCatalogoDTO>>();
 
             try
             {
-                var indiceCatalogos = _unitOfWork.IndiceCatalogos.GetAllWithPagination(page, pageSize);
-                response.Data = _mapper.Map<IEnumerable<IndiceCatalogoDTO>>(indiceCatalogos);
+                var ContenidoCatalogos = _unitOfWork.ContenidoCatalogos.GetAllWithPagination(page, pageSize);
+                response.Data = _mapper.Map<IEnumerable<ContenidoCatalogoDTO>>(ContenidoCatalogos);
 
                 if (response.Data != null)
                 {
@@ -185,10 +186,28 @@ namespace Quinielas.Application.UseCases.IndiceCatalogos
 
             try
             {
-                var transaccion = _unitOfWork.IndiceCatalogos.Count();
+                var transaccion = _unitOfWork.ContenidoCatalogos.Count();
                 response.Data = transaccion;
                 response.isSuccess = true;
                 response.Message = "Registros";
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
+        }
+
+        public async Task<Response<bool>> LlenaLigaByDeporte(int IndiceCatalogoId)
+        {
+            var response = new Response<bool>();
+
+            try
+            {
+                var transaccion = await _unitOfWork.ContenidoCatalogos.LlenaLigaByDeporte(IndiceCatalogoId);
+                response.Data = transaccion;
+                response.isSuccess = true;
+                response.Message = "Registro Actualizado";
             }
             catch (Exception e)
             {

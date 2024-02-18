@@ -16,5 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Application\Quinielas.Application.Interface\Quinielas.Application.Interface.csproj" />
+    <ProjectReference Include="..\Quinielas.HttpHandler\Quinielas.HttpHandler.csproj" />
   </ItemGroup>
 </Project>

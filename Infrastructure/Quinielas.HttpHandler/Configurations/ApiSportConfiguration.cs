@@ -14,7 +14,7 @@ public class ApiSportConfiguration : IRequestConfigurationStrategy
             }
         }
 
-        if (authorization != null)
+        if (authorization == null)
         {
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("x-rapidapi-key", "905f4ab25b35bc38e997c54069b6b2f3");
         }

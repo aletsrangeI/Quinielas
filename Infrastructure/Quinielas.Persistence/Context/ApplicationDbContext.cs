@@ -15,11 +15,13 @@ namespace Quinielas.Persistence.Context
 
         public DbSet<User> Users { get; set; }
         public DbSet<IndiceCatalogo> IndiceCatalogos {get; set;}
+        public DbSet<ContenidoCatalogo> ContenidoCatalogos {get; set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().ToTable("Users");
             modelBuilder.Entity<IndiceCatalogo>().ToTable("IndiceCatalogos");
+            modelBuilder.Entity<ContenidoCatalogo>().ToTable("ContenidoCatalogos");
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
         }
