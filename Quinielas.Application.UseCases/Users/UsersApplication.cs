@@ -5,8 +5,9 @@ using Quinielas.Application.Interface.UseCases;
 using Quinielas.Application.Validator;
 using Quinielas.Transversal.Common;
 
-namespace Quinielas.Application.UseCases.Users{
-        public class UsersApplication : IUsersApplication
+namespace Quinielas.Application.UseCases.Users
+{
+    public class UsersApplication : IUsersApplication
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
@@ -46,7 +47,7 @@ namespace Quinielas.Application.UseCases.Users{
             }
             catch (InvalidOperationException) // Esto es propio de dapper sucede cuando no se puede mapear el resultado de la consulta a un objeto
             {
-                response.isSuccess = true;
+                response.isSuccess = false;
                 response.Message = "El usuario no existe";
             }
             catch (Exception ex)
@@ -55,6 +56,32 @@ namespace Quinielas.Application.UseCases.Users{
             }
             return response;
         }
-    }
 
+        public Response<UserDTO> Agregar(UserDTO userDTO)
+        {
+            var response = new Response<UserDTO>();
+            var validation = _usersDtoValidator.Validate(userDTO);
+
+            if (!validation.IsValid)
+            {
+                response.Message = "Errores de validacion";
+                response.Errors = validation.Errors;
+                return response;
+            }
+
+            try
+            {
+                var user = _mapper.Map<Domain.Entities.User>(userDTO);
+                _unitOfWork.Users.Insert(user);
+                response.Data = _mapper.Map<UserDTO>(user);
+                response.isSuccess = true;
+                response.Message = "Usuario creado exitosamente";
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+            }
+            return response;
+        }
+    }
 }

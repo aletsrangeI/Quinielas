@@ -36,6 +36,8 @@ public class AuditableEntitySaveChangesInterceptor : SaveChangesInterceptor
                 case EntityState.Added:
                     entry.Entity.CreatedBy = "system";
                     entry.Entity.Created = DateTime.Now;
+                    entry.Entity.LastModifiedBy = "system";
+                    entry.Entity.LastModified = DateTime.Now;
                     break;
                 case EntityState.Modified:
                     entry.Entity.LastModifiedBy = "system";

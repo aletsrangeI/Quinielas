@@ -27,10 +27,24 @@ public class UsersController : Controller
         _appSettings = appSettings.Value;
     }
 
+    [AllowAnonymous]
     [HttpPost, ActionName("Authenticate")]
     public IActionResult Authenticate([FromBody] UserDTO usersDto)
     {
         var response = _usersApplication.Authenticate(usersDto.UserName, usersDto.Password);
+
+        if (!response.isSuccess) return BadRequest(response);
+
+        if (response.Data == null) return NotFound(response.Message);
+
+        response.Data.Token = BuildToken(response);
+        return Ok(response);
+    }
+    [AllowAnonymous]
+    [HttpPost, ActionName("Register")]
+    public IActionResult Register([FromBody] UserDTO usersDto)
+    {
+        var response = _usersApplication.Agregar(usersDto);
 
         if (!response.isSuccess) return BadRequest(response);
 
@@ -51,7 +65,7 @@ public class UsersController : Controller
                     new Claim(ClaimTypes.Name, usersDTO.Data.UserId.ToString()),
             }),
 
-            Expires = DateTime.UtcNow.AddMinutes(1),
+            Expires = DateTime.UtcNow.AddMinutes(15),
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
             Issuer = _appSettings.Issuer,
             Audience = _appSettings.Audience
