@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/Quiniela.Service.WebApi.props" />
-</Project>

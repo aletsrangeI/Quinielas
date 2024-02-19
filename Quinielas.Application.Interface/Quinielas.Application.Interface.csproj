@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quinielas.Application.DTO\Quinielas.Application.DTO.csproj" />
+    <ProjectReference Include="..\Quinielas.Domain\Quinielas.Domain.csproj" />
+    <ProjectReference Include="..\Quinielas.Transversal.Common\Quinielas.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
